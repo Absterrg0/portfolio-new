@@ -263,13 +263,20 @@ const writings = [
   },
   {
     id: 4,
+    img: "/assets/Images/writing/prisma.jpg",
+    head: "Getting Started with Prisma: Quick and Easy Node.js Setup",
+    des: "Learn how to quickly set up Prisma in your Node.js (and TypeScript) project with this step-by-step guide. This tutorial will walk you through the simplest and fastest way to get Prisma configured and ready to use.",
+    link: "https://medium.com/@rinkitadhana/getting-started-with-prisma-set-up-prisma-on-your-typescript-express-server-45bcef5e178c",
+  },
+  {
+    id: 5,
     img: "/assets/Images/writing/gsoc2.webp",
     head: "How I almost ruined my GSoC project: My Bonding Period Journey",
     des: "In this blog, I’ll share my journey after getting selected for GSoC, the challenges I faced while balancing exams and project work, and how I tackled the unexpected complexities of my project.",
     link: "https://medium.com/@rinkitadhana/how-i-almost-ruined-my-gsoc-project-my-community-bonding-period-journey-9b890d6002eb",
   },
   {
-    id: 5,
+    id: 6,
     img: "/assets/Images/writing/figma.png",
     head: "Create Common Patterns in Figma Effortlessly",
     des: "In this blog, I will share a simple and effective way to create some of the most common patterns in Figma. You'll learn how to design grid patterns and dotted grid patterns effortlessly",
