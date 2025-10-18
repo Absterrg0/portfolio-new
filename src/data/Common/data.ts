@@ -1,5 +1,5 @@
 import { BiLogoPostgresql } from "react-icons/bi"
-import { FaGithub, FaLinkedinIn, FaPython, FaXTwitter } from "react-icons/fa6"
+import {FaGithub, FaLinkedinIn, FaPython } from "react-icons/fa6"
 import { DiJavascript } from "react-icons/di"
 import { FaGitAlt } from "react-icons/fa6"
 import { IoLogoNodejs } from "react-icons/io5"
@@ -16,6 +16,7 @@ import {
 } from "react-icons/ri"
 import {
   SiRedis,
+  SiBehance,
   SiExpress,
   SiGreensock,
   SiMongodb,
@@ -305,9 +306,9 @@ const navLinks = [
   },
   {
     id: 3,
-    name: "Twitter",
-    link: "https://x.com/intent/follow?screen_name=damnGruz",
-    icon: FaXTwitter,
+    name: "Behance",
+    link: "https://www.behance.net/rinkitadhana",
+    icon: SiBehance,
   },
   {
     id: 4,
