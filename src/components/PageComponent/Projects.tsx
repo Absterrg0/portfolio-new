@@ -31,7 +31,7 @@ const Projects = () => {
               skill={project.skill}
               url={project.url || ""}
               github={project.github || ""}
-              preview={project.preview || ""}
+              featured={project.featured || false}
             />
           </AnimatedWrapper>
         ))}

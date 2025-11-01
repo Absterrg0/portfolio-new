@@ -6,13 +6,12 @@ import InfoCard from "../PageComponent/InfoCard"
 import Projects from "../PageComponent/Projects"
 import Skills from "../PageComponent/Skills"
 import ReachOut from "../PageComponent/ReachOut"
-import Writings from "../PageComponent/Writings"
 import HireMe from "../PageComponent/HireMe"
 import AnimatedWrapper from "@/utils/AnimatedWrapper"
 import { useSwitch } from "../Context/SwitchContext"
 import Nav from "../PageComponent/Nav"
 import SupportMe from "../PageComponent/SupportMe"
-import Newsletter from "../PageComponent/Newsletter"
+import Packages from "../PageComponent/Packages"
 // import Quote from "../PageComponent/Quote"
 
 const IndexPage = () => {
@@ -45,10 +44,7 @@ const IndexPage = () => {
             <Projects />
           </AnimatedWrapper>
           <AnimatedWrapper delay={0.75}>
-            <Writings />
-          </AnimatedWrapper>
-          <AnimatedWrapper delay={0.85}>
-            <Newsletter />
+            <Packages />
           </AnimatedWrapper>
           <AnimatedWrapper delay={0.95}>
             <SupportMe />
@@ -60,7 +56,7 @@ const IndexPage = () => {
         <AnimatedWrapper delay={1.15}>
           <Footer />
         </AnimatedWrapper>
-        <Nav />
+        {/* <Nav /> */}
       </Screen>
     </>
   )

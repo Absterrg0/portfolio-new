@@ -19,25 +19,17 @@ const SupportMe = () => {
           <a
             className="btn"
             target="_blank"
-            href="https://github.com/sponsors/rinkitadhana"
+            href="https://github.com/sponsors/absterrg0"
           >
             <FaRegHeart className="text-pink-400" />
             GitHub Sponsors
           </a>
-          <a
-            className="btn"
-            target="_blank"
-            href="https://buymeacoffee.com/rinkitadhana"
-          >
-            <SiBuymeacoffee className="text-yellow-400" />
-            Buy Me a Coffee
-          </a>
-
+         
           <div
             className="btn"
             onClick={(e) => {
               e.stopPropagation()
-              handleShare("2YosBffP2VFhHFN94taBCxVK7jMUv4ZksVS3TArMuLoG")
+              handleShare("AnQHnjJn3j1zGHyUKnWAHR4wFoZzwQW7qgmvGJEKrD2r")
             }}
           >
             <SiSolana className="text-[#00ffa3]" />
@@ -47,7 +39,7 @@ const SupportMe = () => {
             className="btn"
             onClick={(e) => {
               e.stopPropagation()
-              handleShare("9911039595@ptsbi")
+              handleShare("8128463740@pthdfc")
             }}
           >
             <SiPaytm className="text-[#01BAF2]" />

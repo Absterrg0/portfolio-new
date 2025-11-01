@@ -1,7 +1,7 @@
 "use client"
-import { gruzImage } from "@/data/GruzData/data"
+import { abbyImage } from "@/data/abbyData/data"
 import { useSwitch } from "../Context/SwitchContext"
-import { rinkitImage } from "@/data/RinkitData/data"
+import { profileImage, profileShortName } from "@/data/ProfileData/data"
 import Image from "next/image"
 import { navLinks } from "@/data/Common/data"
 import { InfoTipNav } from "../InfoTipNav"
@@ -34,17 +34,18 @@ const Nav = () => {
           onMouseEnter={handleArrowVisibility}
         >
           <Image
-            src={isSwitchOn ? rinkitImage : gruzImage}
+            src={isSwitchOn ? profileImage : abbyImage}
             alt="Profile Picture"
             className="rounded-md"
             width={35}
             height={35}
-            // title={isSwitchOn ? rinkitShortName : gruzName}
+            // title={isSwitchOn ? profileShortName : abbyName}
           />
         </div>
         {isArrowVisible && (
           <div id="arrow" className="absolute -rotate-90 bottom-6 -right-9">
             <Image
+              unoptimized
               src="/assets/Images/gif/arrow.gif"
               alt="arrow"
               className="size-12 "

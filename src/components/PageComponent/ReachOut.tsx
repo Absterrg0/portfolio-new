@@ -1,18 +1,18 @@
 "use client"
-import { gruzContact, gruzContactLink } from "@/data/GruzData/data"
+import { abbyContact, abbyContactLink } from "@/data/abbyData/data"
 import SectionTitle from "../SectionTitle"
 import { useSwitch } from "../Context/SwitchContext"
-import { rinkitContact, rinkitContactLink } from "@/data/RinkitData/data"
+import { profileContact, profileContactLink } from "@/data/ProfileData/data"
 
 const ReachOut = () => {
   const { isSwitchOn } = useSwitch()
-  const contactLink = isSwitchOn ? gruzContactLink : rinkitContactLink
+  const contactLink = isSwitchOn ? abbyContactLink : profileContactLink
 
   return (
     <section className="flex flex-col gap-0.5">
       <SectionTitle title="Reach out to me" />
       <div className=" flex flex-col gap-2.5">
-        <p>{isSwitchOn ? gruzContact : rinkitContact}</p>
+        <p>{isSwitchOn ? abbyContact : profileContact}</p>
         <div>
           <div className=" flex flex-wrap items-center gap-2">
             {contactLink.map((link) => (
