@@ -12,6 +12,7 @@ import { useSwitch } from "../Context/SwitchContext"
 import Nav from "../PageComponent/Nav"
 import SupportMe from "../PageComponent/SupportMe"
 import Packages from "../PageComponent/Packages"
+import FrontendWork from "../PageComponent/FrontendWork"
 // import Quote from "../PageComponent/Quote"
 
 const IndexPage = () => {
@@ -45,6 +46,9 @@ const IndexPage = () => {
           </AnimatedWrapper>
           <AnimatedWrapper delay={0.75}>
             <Packages />
+          </AnimatedWrapper>
+          <AnimatedWrapper delay={0.85}>
+            <FrontendWork />
           </AnimatedWrapper>
           <AnimatedWrapper delay={0.95}>
             <SupportMe />

@@ -58,12 +58,7 @@ const abbyContactLink = [
     link: "https://x.com/intent/follow?screen_name=damnabby",
     icon: FaXTwitter,
   },
-  {
-    id: 2,
-    name: "Discord",
-    link: "https://discord.gg/JgcDzHpWum",
-    icon: FaDiscord,
-  },
+
 ]
 
 export {
