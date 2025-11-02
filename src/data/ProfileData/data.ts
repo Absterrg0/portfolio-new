@@ -52,7 +52,7 @@ const profileContactLink = [
   {
     id: 1,
     name: "Twitter",
-    link: "https://x.com/intent/follow?screen_name=damnabby",
+    link: "https://x.com/intent/follow?screen_name=notabbytwt",
     icon: FaXTwitter,
   },
   {

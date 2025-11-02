@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     title: "Parv Jain - Portfolio",
     description: "Portfolio of Parv Jain - Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies.",
     images: ["https://res.cloudinary.com/dhcocqegu/image/upload/v1753737110/OGN_o7spwl.png"],
-    creator: "@damnabby",
+    creator: "@notabbytwt",
   },
   robots: {
     index: true,
