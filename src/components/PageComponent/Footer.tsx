@@ -25,6 +25,17 @@ const Footer = () => {
         <p className="text-sm ">
           © 2025 {isSwitchOn ? abbyName : profileName}. All rights reserved.
         </p>
+        <p className="text-xs text-zinc-500">
+          Template by{" "}
+          <a
+            href="https://rinkit.tech/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:opacity-75 transition duration-100 underline"
+          >
+            damnGruz
+          </a>
+        </p>
       </div>
     </footer>
   )
