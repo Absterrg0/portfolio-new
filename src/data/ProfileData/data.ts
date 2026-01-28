@@ -59,7 +59,7 @@ const profileContactLink = [
   {
     id: 3,
     name: "Email",
-    link: "mailto:parvj@abstergo.dev",
+    link: "mailto:parvj5212@gmail.com",
     icon: MdOutlineMail,
   },
 ]
