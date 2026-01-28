@@ -5,7 +5,7 @@ const abbyImage = "/assets/Images/pfps/profile.jpg"
 const abbyName = "Abby"
 const abbyAbout = `
   <p>
-    Hey, I'm Abby, a full-stack developer. I love building things that people and I myself genuinely use and love. Currently I'm working on - <a href="https://app.okito.dev/" target="_blank"> <strong>Okito</strong> </a> a next-generation Web3 payment gateway and SDK built on Solana.
+    Hey, I'm Abby, a full-stack developer. I love building things that people and I myself genuinely use and love. Currently I'm working on - <a href="https://app.okito.dev/" target="_blank"> <strong>Okito</strong> </a> a next-generation Web3 payment gateway and SDK built on Solana, which won a bonus track at the <a href="https://superteam.fun/earn/listing/100xschool-solana-hackathon-1" target="_blank">100x School & Superteam India Solana Hackathon</a> organized by 100xDevs.
   </p>
   <p>
     Besides programming, I'm passionate about football and video games. I also love music and movies - they're a huge part of my life and inspiration. When I'm not coding, you'll find me playing Valorant, watching football matches, or discovering new music and films.
