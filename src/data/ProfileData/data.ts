@@ -68,7 +68,7 @@ const profileFooterLink = [
   {
     id: 1,
     name: "Mail",
-    link: "mailto:parvj@abstergo.dev",
+    link: "mailto:parvj5212@gmail.com",
     icon: MdOutlineMail,
   },
   {

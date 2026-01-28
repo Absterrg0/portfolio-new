@@ -50,9 +50,9 @@ const IndexPage = () => {
           <AnimatedWrapper delay={0.85}>
             <FrontendWork />
           </AnimatedWrapper>
-          <AnimatedWrapper delay={0.95}>
+          {/* <AnimatedWrapper delay={0.95}>
             <SupportMe />
-          </AnimatedWrapper>
+          </AnimatedWrapper> */}
           {/* <AnimatedWrapper delay={1.05}>
             <Quote />
           </AnimatedWrapper> */}

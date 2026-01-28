@@ -23,7 +23,7 @@ const Footer = () => {
           ))}
         </div>
         <p className="text-sm ">
-          © 2025 {isSwitchOn ? abbyName : profileName}. All rights reserved.
+          © 2026 {isSwitchOn ? abbyName : profileName}. All rights reserved.
         </p>
         <p className="text-xs text-zinc-500">
           Template by{" "}
